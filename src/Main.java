@@ -42,25 +42,30 @@ public class Main {
                 System.out.println("Your decision: Comments");
                 System.out.println("----------------------------------------------------------");
                 System.out.println("""
-                        Different types of comments: 1. Single-line Comments
+                        Different types of COMMENTS:
+                        1 Single-line Comments
                         2 Multi-line Comments
                         ----------------------------------------------------------
-                        EXPLANATION:
-                        [These are comments that start with two forward slashes
+                        SINGLE LINE COMMENTS EXPLANATION:
+                        These are comments that start with two forward slashes
                         (//) and continue to the end of the line.
                         Single-line comments are used to document code or to
-                        temporarily disable code for testing purposes.]""");
-
-
-
-
-
+                        temporarily disable code for testing purposes.
+                                                
+                        MULTI LINE COMMENTS EXPLANATION:
+                        These are comments that start with /* and end with */. 
+                        Multi-line comments can span across multiple lines and 
+                        are used for longer explanations or documentation of code.""");
+            } else if (syntax_decision == 2) {
+                System.out.println("Your decision: Print Statements");
+                System.out.println("----------------------------------------------------------");
+                System.out.println("""
+                        Different types of PRINT STATEMENTS:
+                        
+                        
+                        
+                        """);
             }
-
-
-
-
-
 
 
         } else if (user_decision == 2) {
