@@ -29,9 +29,9 @@ public class Main {
 
             System.out.println("""
                     What about java SYNTAX would you like to learn?\s
-                    1 Comments
-                    2 Print Statement
-                    3 Operators""");
+                    1 COMMENTS
+                    2 PRINT STATEMENTS
+                    3 OPERATORS""");
 
             new Scanner(System.in);
             System.out.println("----------------------------------------------------------");
@@ -39,28 +39,34 @@ public class Main {
             int syntax_decision = Integer.parseInt(scanner.nextLine());
 
             if (syntax_decision == 1) {
-                System.out.println("Your decision: Comments");
-                System.out.println("----------------------------------------------------------");
                 System.out.println("""
-                        Different types of COMMENTS:
-                        1 Single-line Comments
-                        2 Multi-line Comments
-                        ----------------------------------------------------------
-                        SINGLE LINE COMMENTS EXPLANATION:
-                        These are comments that start with two forward slashes
-                        (//) and continue to the end of the line.
-                        Single-line comments are used to document code or to
-                        temporarily disable code for testing purposes.
+                       SINGLE & MULTI-LINE COMMENTS
+                       ----------------------------
+                       CODE:
+                       // --> SINGLE LINE COMMENTS
+                       /* */ --> MULTI LINE COMMENTS
+                       ----------------------------
+                       DEFINITION:
+                       -----------
+                       These are comments that start with two forward slashes
+                       (//) and continue to the end of the line.
+                       Single-line comments are used to document code or to
+                       temporarily disable code for testing purposes.
                                                 
-                        MULTI LINE COMMENTS EXPLANATION:
-                        These are comments that start with /* and end with */. 
-                        Multi-line comments can span across multiple lines and 
-                        are used for longer explanations or documentation of code.""");
+                       MULTI LINE COMMENTS EXPLANATION:
+                       These are comments that start with /* and end with */. 
+                       Multi-line comments can span across multiple lines and 
+                       are used for longer explanations or documentation of code.
+                       ----------------------------------------------------------""");
             } else if (syntax_decision == 2) {
-                System.out.println("Your decision: Print Statements");
-                System.out.println("----------------------------------------------------------");
                 System.out.println("""
-                        Different types of PRINT STATEMENTS:
+                       PRINT STATEMENTS:
+                       -----------------
+                       CODE:
+                       System.out.print("xyz") --> "STANDARD" print statement
+                       System.out.println("xyz") --> "NEW LINE" print statement
+                       System.out.printf("xyz") --> "FORMATTER" print statement
+                       
                         
                         
                         
