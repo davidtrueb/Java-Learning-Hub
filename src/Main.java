@@ -41,37 +41,55 @@ public class Main {
             if (syntax_decision == 1) {
                 System.out.println("""
                        SINGLE & MULTI-LINE COMMENTS
-                       ----------------------------
+                       ----------------------------------------------------------
                        CODE:
                        // --> SINGLE LINE COMMENTS
                        /* */ --> MULTI LINE COMMENTS
-                       ----------------------------
+                       ----------------------------------------------------------
                        DEFINITION:
-                       -----------
                        These are comments that start with two forward slashes
                        (//) and continue to the end of the line.
                        Single-line comments are used to document code or to
                        temporarily disable code for testing purposes.
                                                 
                        MULTI LINE COMMENTS EXPLANATION:
-                       These are comments that start with /* and end with */. 
-                       Multi-line comments can span across multiple lines and 
+                       These are comments that start with /* and end with */.
+                       Multi-line comments can span across multiple lines and
                        are used for longer explanations or documentation of code.
                        ----------------------------------------------------------""");
             } else if (syntax_decision == 2) {
                 System.out.println("""
-                       PRINT STATEMENTS:
-                       -----------------
-                       CODE:
-                       System.out.print("xyz") --> "STANDARD" print statement
-                       System.out.println("xyz") --> "NEW LINE" print statement
-                       System.out.printf("xyz") --> "FORMATTER" print statement
-                       
-                        
-                        
-                        
-                        """);
+                      PRINT STATEMENTS:
+                      ----------------------------------------------------------
+                      CODE:
+                      System.out.print("xyz") --> "STANDARD" print statement
+                      System.out.println("xyz") --> "NEW LINE" print statement
+                      ----------------------------------------------------------
+                      DEFINITION:
+                      In programming, a print statement is a statement that outputs
+                      information to the console or other output device.
+                      In Java, the System.out.println() method is commonly used to
+                      print output to the console.
+                      
+                      In the examples above (System.out.print ...) >> PRINTS WITHOUT A NEW LINE.
+                      In the other example above (System.out.println ...) >> PRINTS WITH A NEW LINE.
+                     ----------------------------------------------------------""");
+            } else if (syntax_decision ==  3) {
+                System.out.println("""
+                        OPERATORS SUB-OPTIONS:
+                        ----------------------------------------------------------
+                        1 ARITHMETIC OPERATORS
+                        2 ASSIGNMENT OPERATORS
+                        3 COMPARISON OPERATORS
+                        4 LOGIC OPERATORS
+                        5 INCREMENT AND DECREMENT OPERATORS
+                        ----------------------------------------------------------""");
             }
+            // new Scanner(System.in);
+            // System.out.print("");
+            //if ()
+
+
 
 
         } else if (user_decision == 2) {
