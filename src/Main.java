@@ -85,23 +85,65 @@ public class Main {
                         5 INCREMENT AND DECREMENT OPERATORS
                         ----------------------------------------------------------""");
             }
-            // new Scanner(System.in);
-            // System.out.print("");
-            //if ()
-
-
+                new Scanner(System.in);
+                System.out.print("Enter now a value from 1 - 5: ");
+                int operators_decision = Integer.parseInt(scanner.nextLine());
+                    if (operators_decision == 1) {
+                        System.out.println("""
+                                ARITHMETIC OPERATORS
+                                ----------------------------------------------------------
+                                ADDITION [ + ]
+                                SUBTRACTION [ - ]
+                                MULTIPLICATION [ * ]
+                                DIVISION [ / ]
+                                MODULUS [ % ]
+                                
+                                The above listed operators can be used to perform
+                                calculation of any kind.
+                                """);
+                    } else if (operators_decision == 2) {
+                        System.out.println("""
+                                ASSIGNMENT OPERATORS
+                                ----------------------------------------------------------
+                                SIMPLE ASSIGNMENT [ = ]
+                                ADDITION ASSIGNMENT [ += ]
+                                SUBTRACTION ASSIGNMENT [ -= ]
+                                MULTIPLICATION ASSIGNMENT [ *= ]
+                                DIVISION ASSIGNMENT [ /= ]
+                                MODULO ASSIGNMENT [ %= ]
+                                """);
+                    } else if (operators_decision == 3) {
+                        System.out.println("""
+                               COMPARISON OPERATORS
+                               ----------------------------------------------------------
+                               
+                                """);
+                    } else if (operators_decision == 4) {
+                        System.out.println("""
+                               LOGIC OPERATORS
+                               ----------------------------------------------------------
+                                """);
+                    } else if (operators_decision == 5) {
+                        System.out.println("""
+                                INCREMENT AND DECREMENT OPERATORS
+                                ----------------------------------------------------------
+                                
+                                
+                                
+                                """);
+                    }
 
 
         } else if (user_decision == 2) {
-            System.out.println("Decision: Data Types");
+            System.out.println("Data Types");
         } else if (user_decision == 3) {
-            System.out.println("Decision: Variables");
+            System.out.println("Variables");
         } else if (user_decision == 4) {
-            System.out.println("Decision: Control Structure");
+            System.out.println("Control Structure");
         } else if (user_decision == 5) {
-            System.out.println("Decision:  Classes and Objects");
+            System.out.println("Classes and Objects");
         } else if (user_decision == 6) {
-            System.out.println("Decision: Methods");
+            System.out.println("Methods");
         }
         else {
             System.out.println("Invalid Input.");
