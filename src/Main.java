@@ -5,14 +5,15 @@ public class Main {
         System.out.println("-----------------");
         System.out.println("JAVA Learning Hub");
         System.out.println("----------------------------------------------------------");
-        System.out.println("Here are the topics you can choose from to learn / repeat: \n" +
-                "----------------------------------------------------------\n" +
-                "1 Syntax in JAVA\n" +
-                "2 Data Types in JAVA\n" +
-                "3 Variables in JAVA\n" +
-                "4 Control Structure in JAVA (If / Else)\n" +
-                "5 Classes and Objects in JAVA\n" +
-                "6 Methods in JAVA");
+        System.out.println("""
+                Here are the topics you can choose from to learn / repeat:\s
+                ----------------------------------------------------------
+                1 Syntax in JAVA
+                2 Data Types in JAVA
+                3 Variables in JAVA
+                4 Control Structure in JAVA (If / Else)
+                5 Classes and Objects in JAVA
+                6 Methods in JAVA""");
 
 
         Scanner scanner = new Scanner(System.in);
@@ -26,12 +27,13 @@ public class Main {
             System.out.println("Your decision is - Syntax");
             System.out.println("----------------------------------------------------------");
 
-            System.out.println("What about java SYNTAX would you like to learn? \n" +
-                    "1 Comments\n" +
-                    "2 Print Statement\n" +
-                    "3 Operators");
+            System.out.println("""
+                    What about java SYNTAX would you like to learn?\s
+                    1 Comments
+                    2 Print Statement
+                    3 Operators""");
 
-            Scanner scanner1 = new Scanner(System.in);
+            new Scanner(System.in);
             System.out.println("----------------------------------------------------------");
             System.out.print("Chose one of the three topics: ");
             int syntax_decision = Integer.parseInt(scanner.nextLine());
@@ -39,15 +41,15 @@ public class Main {
             if (syntax_decision == 1) {
                 System.out.println("Your decision: Comments");
                 System.out.println("----------------------------------------------------------");
-                System.out.println("Different types of comments: " +
-                        "1. Single-line Comments\n" +
-                        "2 Multi-line Comments\n" +
-                        "----------------------------------------------------------\n" +
-                        "EXPLANATION:\n" +
-                        "[These are comments that start with two forward slashes\n" +
-                        "(//) and continue to the end of the line.\n" +
-                        "Single-line comments are used to document code or to\n" +
-                        "temporarily disable code for testing purposes.]");
+                System.out.println("""
+                        Different types of comments: 1. Single-line Comments
+                        2 Multi-line Comments
+                        ----------------------------------------------------------
+                        EXPLANATION:
+                        [These are comments that start with two forward slashes
+                        (//) and continue to the end of the line.
+                        Single-line comments are used to document code or to
+                        temporarily disable code for testing purposes.]""");
 
 
 
