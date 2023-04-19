@@ -160,7 +160,7 @@ public class Main {
                         System.out.println("""
                                 INCREMENT AND DECREMENT OPERATORS
                                 ----------------------------------------------------------
-                                
+                                 
                                 
                                 
                                 """);
