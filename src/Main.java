@@ -11,7 +11,7 @@ public class Main {
                 1 Syntax in JAVA
                 2 Data Types in JAVA
                 3 Variables in JAVA
-                4 Control Structure in JAVA (If / Else)
+                4 Control Structure in JAVA (If / Else / While & For Loops)
                 5 Classes and Objects in JAVA
                 6 Methods in JAVA""");
 
@@ -40,7 +40,7 @@ public class Main {
 
             if (syntax_decision == 1) {
                 System.out.println("""
-                       SINGLE & MULTI-LINE COMMENTS
+                          SINGLE & MULTI-LINE COMMENTS
                        ----------------------------------------------------------
                        CODE:
                        // --> SINGLE LINE COMMENTS
@@ -56,7 +56,10 @@ public class Main {
                        These are comments that start with /* and end with */.
                        Multi-line comments can span across multiple lines and
                        are used for longer explanations or documentation of code.
-                       ----------------------------------------------------------""");
+                       ----------------------------------------------------------
+                        
+                        
+                        """);
             } else if (syntax_decision == 2) {
                 System.out.println("""
                       PRINT STATEMENTS:
@@ -92,12 +95,14 @@ public class Main {
                         System.out.println("""
                                 ARITHMETIC OPERATORS
                                 ----------------------------------------------------------
+                                CODE:
                                 ADDITION [ + ]
                                 SUBTRACTION [ - ]
                                 MULTIPLICATION [ * ]
                                 DIVISION [ / ]
                                 MODULUS [ % ]
-                                
+                                ----------------------------------------------------------
+                                DEFINITION:
                                 The above listed operators can be used to perform
                                 calculation of any kind.
                                 """);
@@ -105,24 +110,52 @@ public class Main {
                         System.out.println("""
                                 ASSIGNMENT OPERATORS
                                 ----------------------------------------------------------
+                                CODE:
                                 SIMPLE ASSIGNMENT [ = ]
                                 ADDITION ASSIGNMENT [ += ]
                                 SUBTRACTION ASSIGNMENT [ -= ]
                                 MULTIPLICATION ASSIGNMENT [ *= ]
                                 DIVISION ASSIGNMENT [ /= ]
                                 MODULO ASSIGNMENT [ %= ]
+                                ----------------------------------------------------------
+                                DEFINITION:
+                                These operators are used to assign a value to a variable,
+                                while also performing a specific operation on that variable.
+                                For example, x += 5 is equivalent to x = x + 5
                                 """);
                     } else if (operators_decision == 3) {
                         System.out.println("""
                                COMPARISON OPERATORS
                                ----------------------------------------------------------
+                               CODE:
+                               EQUAL TO [ == ]
+                               NOT EQUAL TO [ != ]
+                               LESS THAN [ < ]
+                               GREATER THAN [ > ]
+                               LESS THAN OR EQUAL TO [ <= ]
+                               ----------------------------------------------------------
+                               DEFINITION:
+                               These operators are used to compare values and produce a
+                               boolean result of either * true * or * false * based on the comparison.
                                
                                 """);
                     } else if (operators_decision == 4) {
                         System.out.println("""
-                               LOGIC OPERATORS
-                               ----------------------------------------------------------
-                                """);
+                                LOGIC OPERATORS
+                                ----------------------------------------------------------
+                                CODE:
+                                Logical AND [ && ]
+                                Logical OR [ || ]
+                                Logical NOT [ ! ]
+                                ----------------------------------------------------------
+                                DEFINITION:
+                                The * && * operator returns true if both operands are true, and false otherwise.
+                                                               
+                                The || operator returns true if at least one operand is true, and false otherwise.
+                                                                
+                                The ! operator negates the boolean value of its operand, returning true if the
+                                operand is false, and false otherwise.
+                                 """);
                     } else if (operators_decision == 5) {
                         System.out.println("""
                                 INCREMENT AND DECREMENT OPERATORS
@@ -144,8 +177,7 @@ public class Main {
             System.out.println("Classes and Objects");
         } else if (user_decision == 6) {
             System.out.println("Methods");
-        }
-        else {
+        } else {
             System.out.println("Invalid Input.");
         }
 
